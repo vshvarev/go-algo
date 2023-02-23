@@ -13,6 +13,7 @@ type NonConstructibleChangeTest struct {
 var NonConstructibleChangeTests = []NonConstructibleChangeTest{
 	{[]int{5, 7, 1, 1, 2, 3, 22}, 20},
 	{[]int{1, 1, 1, 1, 1}, 6},
+	{[]int{1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024}, 2048},
 	{[]int{87}, 1},
 	{[]int{}, 1},
 }
